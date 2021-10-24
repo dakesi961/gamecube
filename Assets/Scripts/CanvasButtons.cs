@@ -7,4 +7,9 @@ public class CanvasButtons : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void toYoutube()
+    {
+        Application.OpenURL("https://www.youtube.com/watch?v=VFz9GkGTGRU&t=635s&ab_channel=A.I.Channel");
+    }
+
 }
